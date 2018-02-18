@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.IEEEDetailPage">
+    <ContentPage.Content>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Label Text="IEEE Yaşar Üniversitesi" FontSize="Large"
+                   FontAttributes="Bold" Grid.Row="0"/>
+                <Label Text="Kulübümüz hakkında daha fazla şey öğrenmek için sosyal medya hesaplarımızdan bizi takip et!"
+                   FontSize="Default" Grid.Row="1"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <ListView HasUnevenRows="True" x:Name="myLstView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell ImageSource="{Binding IconUrl}"
+                                       Text="{Binding Text}"
+                                       Detail="{Binding Count}"
+                                       TextColor="#004a94"/>
+                            <!--<ViewCell>
+                                <Grid Padding="20,0,20,0">
+                                    <Image Source="{Binding IconUrl}" Aspect="AspectFit" IsOpaque="True"
+                                           Grid.Row="0" HeightRequest="50"
+                                           WidthRequest="50" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding Count}" FontAttributes="Bold"
+                                           Grid.Row="1"/>
+                                    <Label Text="{Binding Text}"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </ViewCell>-->
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

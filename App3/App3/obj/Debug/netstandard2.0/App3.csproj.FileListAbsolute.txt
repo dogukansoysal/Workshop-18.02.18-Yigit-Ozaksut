@@ -1,0 +1,13 @@
+C:\Users\Yigit\source\repos\App3\App3\App3\bin\Debug\netstandard2.0\App3.deps.json
+C:\Users\Yigit\source\repos\App3\App3\App3\bin\Debug\netstandard2.0\App3.dll
+C:\Users\Yigit\source\repos\App3\App3\App3\bin\Debug\netstandard2.0\App3.pdb
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.csprojResolveAssemblyReference.cache
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.csproj.CoreCompileInputs.cache
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.App.xaml.g.cs
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfoInputs.cache
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfo.cs
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.dll
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.pdb
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.IEEEDetailPage.xaml.g.cs
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.IEEEMenuPage.xaml.g.cs
+C:\Users\Yigit\source\repos\App3\App3\App3\obj\Debug\netstandard2.0\App3.IEEEContactPage.xaml.g.cs
